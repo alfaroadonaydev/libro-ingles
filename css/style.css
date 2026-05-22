@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica+Headline:ital,wght@0,100..900;1,100..900&family=Iosevka+Charon+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 1.2rem;
+}
+
+.content-tobe {
+margin: 0 15%;
+line-height: 1.6;
+}
+
+.content-tobe table {
+    border: 1px solid slateblue;
+}
+
+.content-tobe table tr td {
+    width: 25%;
+    padding: 1rem;
+}
+
+.content-tobe table tr td:nth-child(2) {
+    border-right: 2px solid rebeccapurple;
+}
+
+
+.border {
+    border: 2px solid maroon;
+}
+
+.p-1rem {
+    padding: 1rem;
+}
+
+.grid-tobe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin: 0 15%;
+}
+
+.exercises {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+}
+
+.navbar {
+    padding: 15px;
+    border: 1px solid yellowgreen;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    line-height: 1.6;
+}
+
+.navbar ul li {
+    border-bottom: 1px solid lawngreen;
+}
+
+.navbar ul li:hover {
+    background-color: rgb(188, 248, 228);
+    cursor: pointer;
+}
+
+.negative-section {
+    margin-top: 2rem;
+}
+
+.negative-section h4 {
+    margin-bottom: 1rem;
+}
+
+.table-negative {
+    border: 1px solid cornflowerblue;
+    width: 100%;
+}
+
+.table-negative tr td {
+    width: 33.33%;
+    padding: 1rem;
+    vertical-align: top;
+}
+
+.table-negative tr td:nth-child(1) {
+    border-right: 2px solid rebeccapurple;
+}
+
+.table-negative tr td:nth-child(2) {
+    border-right: 2px solid violet;
+}
+
+.negative-examples {
+    margin-top: 2rem;
+}
+
+.negative-vocab {
+    margin: 0.8rem 0 1.2rem 0;
+}
+
+.label-escuche {
+    margin: 1.5rem 0 0.8rem 0;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.two-col-qa {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.four-col {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.exercises {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    padding: 2rem 15%;
+    margin-top: 2rem;
+}
+
+.form {
+    width: 100%;
+    height: 100%;
+    border: 1px solid aqua;
+    border-radius: 10px;
+}
